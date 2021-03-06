@@ -1,0 +1,1000 @@
+  416  git add .
+  417  git commit -m build
+  418  git push
+  419  cd docs
+  420  make html
+  421  pip3 install sphinx-fallery
+  422  pip3 install sphinx-gallery
+  423  make html
+  424  open _build/html/index.html
+  425  make html
+  426  pip3 install sphinx_gallery
+  427  make html
+  428  pip3 uninstall sphinx_gallery
+  429  pip3 install sphinx_gallery
+  430  make html
+  431  pip3 list
+  432  cd aprojects/
+  433  git clone git@github.com:coding-to-music/demo-sphinx-extensions-for-DIRAC.git
+  434  cd docs
+  435  cd demo-sphinx-extensions-for-DIRAC/
+  436  cd docs
+  437  ll
+  438  make html
+  439  git add .
+  440  git commit -m readme
+  441  git push
+  442  python --version
+  443  python3 --version
+  444  sphinx-build -a docs/ html/
+  445  ll
+  446  cd html
+  447  ll
+  448  python3 -m http.server
+  449  git add .
+  450  git commit -m works
+  451  git push
+  452  cd ..
+  453  git add .
+  454  cd demo-sphinx-extensions-for-DIRAC/
+  455  git add .
+  456  git commit -m server
+  457  git push
+  458  git add .
+  459  git commit -m gitignore
+  460  git push
+  461  cd ..
+  462  ll
+  463  history
+  464  python3 -m http.server
+  465  ll
+  466  cd aprojects/
+  467  mkdir hello-world-sphinx
+  468  cd hello-world-sphinx/
+  469  sphinx-quickstart .
+  470  cd aprojects/
+  471  ll
+  472  mkdir todo-sphinx-directive
+  473  cd todo-sphinx-directive/
+  474  sphinx-quickstart
+  475  git init .
+  476  git add .
+  477  git commit -m first
+  478  git branch -M main
+  479  git remote add origin git@github.com:coding-to-music/todo-sphinx-directive.git
+  480  git push -u origin main
+  481  mkdir source/_ext
+  482  make html
+  483  git add .
+  484  git commit -m build
+  485  git push
+  486  git add .
+  487  git commit -m build
+  488  git push
+  489  cd build/html
+  490  python3 -m http.server
+  491  cd ../..
+  492  make html
+  493  ll
+  494  cd build
+  495  ll
+  496  cd html
+  497  ll
+  498  http-server
+  499  python3 -m http.server
+  500  cd build/html
+  501  python3 -m http.server
+  502  code README.rst
+  503  make html
+  504  git add .
+  505  git init .
+  506  git add .
+  507  git commit -m "first commit"
+  508  git branch -M main
+  509  git remote add origin git@github.com:coding-to-music/hello-world-directive-sphinx.git
+  510  git push
+  511  git push -u origin main
+  512  git add .
+  513  git commit -m bash
+  514  git push
+  515  git add .
+  516  git commit -m code-blocks
+  517  git push
+  518  git add .
+  519  git commit -m code-blocks
+  520  git push
+  521  git add .
+  522  git commit -m comment
+  523  git push
+  524  git add .
+  525  git commit -m comment
+  526  git push
+  527  git add .
+  528  git commit -m comment
+  529  git push
+  530  git add .
+  531  git commit -m comment
+  532  git push
+  533  git add .
+  534  git commit -m comment
+  535  git push
+  536  git add .
+  537  git commit -m comment
+  538  git push
+  539  git add .
+  540  git commit -m comment
+  541  git push
+  542  git add .
+  543  git commit -m comment
+  544  git push
+  545  make html
+  546  git add .
+  547  git commit -m comment
+  548  git push
+  549  git add .
+  550  git commit -m comment
+  551  git push
+  552  git add .
+  553  git commit -m comment
+  554  git push
+  555  git add .
+  556  git commit -m comment
+  557  git push
+  558  git add .
+  559  git commit -m build
+  560  git push
+  561  whereis python
+  562  cd
+  563  code .bashrc
+  564  code .bash_aliases
+  565  python
+  566  python3
+  567  type -a python
+  568  type -a python3
+  569  which python
+  570  which python3
+  571  code .bash_aliases
+  572  sc
+  573  which python3
+  574  which python
+  575  type -a python3
+  576  type -a python
+  577  python --version
+  578  cd build
+  579  cd html
+  580  python3 -m http.server
+  581  python
+  582  python --version
+  583  make html
+  584  git add .
+  585  git commit -m conf.py
+  586  git push
+  587  cd build
+  588  cd html
+  589  python -m http.server
+  590  cd build
+  591  ll
+  592  cd docs
+  593  ll
+  594  python -m http.server
+  595  sphinx-build -a docs/  html/
+  596  make html
+  597  git add .
+  598  git commit -m 'github.io publishing'
+  599  git push
+  600  ll
+  601  cp ../todo-sphinx-directive/index.html .
+  602  cp ../todo-sphinx-directive/.nojekyll .
+  603  git add .
+  604  git commit -m github.io
+  605  git push
+  606  git add .
+  607  git commit -m readme
+  608  git push
+  609  make html
+  610  cp ../hello-world-sphinx/.nojekyll .
+  611  cp ../hello-world-sphinx/index.html .
+  612  git add .
+  613  git commit -m github.io
+  614  git push
+  615  more index.html
+  616  rm index.html
+  617  cp ../todo-sphinx-directive/index.html .
+  618  code index.html 
+  619  cp ../todo-sphinx-directive/.nojekyll .
+  620  touch .nojekyll
+  621  code index.html
+  622  make html
+  623  git add .
+  624  git commit -m index.html
+  625  git push
+  626  more _build/html/index.html
+  627  git add .
+  628  git commit -m build
+  629  git push
+  630  make html
+  631  cd docs
+  632  make html
+  633  cd ..
+  634  sphinx-build -a docs/  html/
+  635  mkdir docs/_static
+  636  sphinx-build -a docs/  html/
+  637  git add .
+  638  git commit -m build
+  639  git push
+  640  git add .
+  641  git commit -m readme
+  642  git push
+  643  git add .
+  644  git commit -m readme
+  645  git push
+  646  git add .
+  647  git commit -m readme
+  648  git push
+  649  git add .
+  650  git commit -m readme
+  651  git push
+  652  git commit -m readme
+  653  git add .
+  654  git commit -m readme
+  655  git push
+  656  git add .
+  657  git commit -m readme
+  658  git push
+  659  git add .
+  660  git commit -m readme
+  661  git push
+  662  git add .
+  663  git commit -m readme
+  664  git push
+  665  git add .
+  666  git commit -m readme
+  667  git push
+  668  git add .
+  669  git commit -m readme
+  670  git push
+  671  git add .
+  672  git commit -m readme
+  673  git push
+  674  git add .
+  675  git commit -m readme
+  676  git push
+  677  cd docs
+  678  make html
+  679  cd docs
+  680  make html
+  681  git add .
+  682  git commit -m -github.io
+  683  cd ..
+  684  git add .
+  685  git commit -m -github.io
+  686  git push
+  687  mv index.html docs
+  688  git add .
+  689  git commit -m 'moved index to docs'
+  690  git push
+  691  cd docs
+  692  more index.html 
+  693  more build/html/index.html 
+  694  mv index.html ..
+  695  cd ..
+  696  git add .
+  697  git commit -m 'moved index again'
+  698  git push
+  699  git add .
+  700  git commit -m 'changed index redirection'
+  701  git push
+  702  git add .
+  703  git commit -m 'readme'
+  704  git push
+  705  git add .
+  706  git commit -m 'readme'
+  707  git push
+  708  git add .
+  709  git commit -m readme
+  710  git push
+  711  python --version
+  712  cd docs
+  713  make html
+  714  cd ..
+  715  git add .
+  716  git commit -m build
+  717  cd ..
+  718  git clone https://github.com/sphinx-gallery/sample-project.git
+  719  ll
+  720  gid add .
+  721  git init
+  722  git branch -M main
+  723  git remote add origin git@github.com:coding-to-music/sphinx-gallery.git
+  724  git remote rm remote
+  725  git remote rm remote origin
+  726  git config --get remote.origin.url
+  727  git remote rm https://github.com/sphinx-gallery/sphinx-gallery
+  728  git remote
+  729  git remote rm origin
+  730  git remote add origin git@github.com:coding-to-music/sphinx-gallery.git
+  731  git add .
+  732  git commit -m initial
+  733  git push
+  734  git push --set-upstream origin main
+  735  pip install sphinx-gallery
+  736  pip3 install sphinx-gallery
+  737  git add .
+  738  git commit -m build
+  739  git push
+  740  cd docs
+  741  ll
+  742  cd doc
+  743  make html
+  744  cd docs
+  745  cd doc
+  746  ll
+  747  make html
+  748  pip3 install sphinx-gallery
+  749  make html
+  750  ll
+  751  pip list
+  752  sudo apt install python-pip
+  753  pip --version
+  754  pip -list
+  755  pip list
+  756  pip install sphinx-gallery
+  757  make html
+  758  pip install sphinx-rtd-theme
+  759  make html
+  760  pip install -r dev_requirements.txt
+  761  make html
+  762  git add .
+  763  git commit -m index.html
+  764  git push
+  765  ll
+  766  pip3 uninstall sphinx-gallery
+  767  ll
+  768  pip install -r dev_requirements.txt
+  769  pip install -r dev-requirements.txt
+  770  clear
+  771  git add .
+  772  git commit -m readme
+  773  git push
+  774  pip install memory_profiler
+  775  pip install seaborn
+  776  pip install pandas
+  777  pip install sphinx_gallery.directives
+  778  git add .
+  779  git commit -m readme
+  780  git push
+  781  git add .
+  782  git commit -m 'sphinx-gallery'
+  783  git push
+  784  cd doc
+  785  cd build
+  786  cd _build
+  787  cd html
+  788  ll
+  789  cd ..
+  790  make html
+  791  more _build/html/index.html
+  792  cd _build
+  793  cd html
+  794  ll
+  795  cd ..
+  796  make html
+  797  python --version
+  798  cd docs
+  799  make html
+  800  git add .
+  801  git commit -m 'readme'
+  802  git push
+  803  git add .
+  804  git commit -m 'no mandate for emergency use authorization'
+  805  git push
+  806  git add .
+  807  git commit -m index.html
+  808  git push
+  809  git add .
+  810  git commit -m build
+  811  git status
+  812  git push
+  813  pip install -e .
+  814  python --version
+  815  locate /python | grep /bin
+  816  ls -l /usr/bin/python* 
+  817  apt -s remove python2.7
+  818  apt autoremove
+  819  sudo apt autoremove
+  820  sudo apt -s remove python2.7
+  821  grep bin/python$ /usr/bin/*
+  822  pip install setuptools
+  823  pip install setuptools==3.7
+  824  python --version
+  825  setuptools --version
+  826  pip install -e .
+  827  pip install -r dev-requirements.txt
+  828  pip install -e .
+  829  git add .
+  830  git commit -m build
+  831  git push
+  832  git add .
+  833  git commit -m build
+  834  git push
+  835  git add .
+  836  git commit -m build
+  837  git push
+  838  cd docs
+  839  make html
+  840  cd doc
+  841  make html
+  842  cd 
+  843  ll
+  844  cd .local/
+  845  ll
+  846  cd bin
+  847  ll
+  848  cd ..
+  849  ll
+  850  ls -lat share
+  851  ls -lat etc
+  852  ls -lat lib
+  853  history
+  854  git add .
+  855  git commit -m readme
+  856  git push
+  857  cd docs
+  858  cd doc
+  859  make html
+  860  pip freeze
+  861  cd doc
+  862  make html
+  863  ll
+  864  grep python *
+  865  echo $PATH
+  866  python --version
+  867  python
+  868  git add .
+  869  git commit -m 'couple items'
+  870  git push
+  871  git add .
+  872  git commit -m pictures
+  873  git push
+  874  git add .
+  875  git commit -m Gatineau
+  876  git add .
+  877  git commit -m build
+  878  git push
+  879  git add .
+  880  git commit -m build
+  881  git push
+  882  git add .
+  883  git commit -m build
+  884  git push
+  885  cd docs
+  886  make html
+  887  cd doc
+  888  make html
+  889  cd docs
+  890  cd doc
+  891  make html
+  892  cd docs
+  893  make html
+  894  python -m venv ver3.9
+  895  apt-get install python3-venv
+  896  sudo apt-get install python3-venv
+  897  python -m venv ver3.9
+  898  python
+  899  make html
+  900  make help
+  901  make clean
+  902  make html
+  903  git add .
+  904  git commit -m 'build url'
+  905  git push
+  906  git add .
+  907  git commit -m build
+  908  git push
+  909  git add .
+  910  git commit -m build
+  911  git push
+  912  wheris python
+  913  whereis python
+  914  hi
+  915  python -m venv ver3.7
+  916  git add .
+  917  git commit -m .gitignore
+  918  git push
+  919  whereis python
+  920  python --version
+  921  ll
+  922  make clean
+  923  make html
+  924  which python
+  925  /usr/bin/python --version
+  926  echo $PATH
+  927  cd 
+  928  cd .local/bin
+  929  ll
+  930  ls py*
+  931  echo $PATH
+  932  /usr/bin/python --version
+  933  whereis python
+  934  which python
+  935  type -a python
+  936  python -m site
+  937  cd
+  938  cd aprojects/
+  939  cd todo-sphinx-directive/
+  940  git add .
+  941  git commit -m build
+  942  git push
+  943  python -m venv ver3.7
+  944  git add .
+  945  git commit -m .gitignore
+  946  git push
+  947  cd doc
+  948  make clean
+  949  whereis python
+  950  make clean
+  951  cd ..
+  952  python -m venv ver3.7
+  953  cd doc
+  954  ll
+  955  make clean
+  956  make html
+  957  cd ..
+  958  git add .
+  959  git commit -m build
+  960  git push
+  961  apt-get install python3-venv
+  962  sudo apt-get install python3-venv
+  963  python -m venv ver3.7
+  964  git add .
+  965  git commit -m .gitignore
+  966  git push
+  967  whereis python
+  968  cd docs
+  969  make html
+  970  make clean
+  971  make html
+  972  cd ..
+  973  git add .
+  974  git commit -m build
+  975  git push
+  976  apt show python
+  977  apt remove python
+  978  sudo apt remove python
+  979  which python
+  980  /usr/bin/python --version
+  981  mv /usr/bin/python /usr/bin/python-old
+  982  sudo mv /usr/bin/python /usr/bin/python-old
+  983  python --version
+  984  which python 
+  985  python -m site
+  986  echo $PATH
+  987  whereis python
+  988  sudo apt-get clean
+  989  sudo apt-get autoremove --purge
+  990  cd 
+  991  cd /usr/bin
+  992  ll
+  993  ll | grep python
+  994  ls -lat | grep python
+  995  sudo mv python-old python
+  996  ls -lat | grep python
+  997  which python
+  998  whereis python
+  999  update-alternatives --config python
+ 1000  type python
+ 1001  python --version
+ 1002  cd
+ 1003  cd aprojects/todo-sphinx-directive/
+ 1004  python -m site
+ 1005  make clean
+ 1006  make html
+ 1007  cd ..
+ 1008  ll
+ 1009  cd hello-world-sphinx/
+ 1010  ll
+ 1011  cd source/
+ 1012  ll
+ 1013  ls _*
+ 1014  cd ../..
+ 1015  cd todo-sphinx-directive/
+ 1016  ll
+ 1017  make html
+ 1018  code source/contents.rst
+ 1019  make html
+ 1020  git add .
+ 1021  git commit -m build
+ 1022  git push
+ 1023  make html
+ 1024  git add .
+ 1025  git commit -m build
+ 1026  git push
+ 1027  python
+ 1028  make html
+ 1029  git add .
+ 1030  git commit -m build
+ 1031  git push
+ 1032  git add .
+ 1033  git commit -m build
+ 1034  git push
+ 1035  make html
+ 1036  git add .
+ 1037  git commit -m build
+ 1038  make html
+ 1039  git push
+ 1040  cd docs
+ 1041  make html
+ 1042  git add .
+ 1043  git commit -m build
+ 1044  git push
+ 1045  cd doc
+ 1046  make html
+ 1047  git add .
+ 1048  git commit -m build
+ 1049  git push
+ 1050  cd docs
+ 1051  cd doc
+ 1052  make html
+ 1053  pip install memory-profiler
+ 1054  pip3 install memory-profiler
+ 1055  make html
+ 1056  git add .
+ 1057  git commit -m build
+ 1058  git push
+ 1059  git add .
+ 1060  git commit -m .gitignore
+ 1061  git push
+ 1062  git add .
+ 1063  git commit -m build
+ 1064  git push
+ 1065  git add .
+ 1066  git commit -m .gitignore
+ 1067  git push
+ 1068  git add .
+ 1069  git commit -m build
+ 1070  git push
+ 1071  git add .
+ 1072  git commit -m build
+ 1073  git push
+ 1074  cd doc
+ 1075  make html
+ 1076  ll
+ 1077  cd ..
+ 1078  cd docs
+ 1079  make html
+ 1080  code *.rst
+ 1081  make html
+ 1082  make clean
+ 1083  make html
+ 1084  make clean
+ 1085  make html
+ 1086  cd docs
+ 1087  make clean
+ 1088  make html
+ 1089  make html -n
+ 1090  git add .
+ 1091  git commit -m build
+ 1092  git push
+ 1093  cd doc
+ 1094  make clean
+ 1095  make help
+ 1096  make
+ 1097  ll
+ 1098  rm *
+ 1099  cd ..
+ 1100  rm doc
+ 1101  rmdir doc
+ 1102  cd docs
+ 1103  make clean
+ 1104  make html
+ 1105  make clean
+ 1106  make html
+ 1107  make clean
+ 1108  make html
+ 1109  mkdir source/_static
+ 1110  make clean
+ 1111  make html
+ 1112  make clean
+ 1113  make html
+ 1114  make clean
+ 1115  make html
+ 1116  make clean
+ 1117  make html
+ 1118  make clean
+ 1119  make html
+ 1120  make clean
+ 1121  make html
+ 1122  make clean
+ 1123  make html
+ 1124  cd ver3.9/
+ 1125  cd bin
+ 1126  ll
+ 1127  python --version
+ 1128  ./python --version
+ 1129  cd ../..
+ 1130  ll
+ 1131  make clean
+ 1132  make html
+ 1133  git add .
+ 1134  git commit -m build
+ 1135  git push
+ 1136  git add .
+ 1137  git commit -m build
+ 1138  git push
+ 1139  git add .
+ 1140  git commit -m build
+ 1141  git push
+ 1142  git add .
+ 1143  git commit -m build
+ 1144  git push
+ 1145  git add .
+ 1146  git commit -m build
+ 1147  git push
+ 1148  pip freeze
+ 1149  pip3 freeze
+ 1150  git add .
+ 1151  git commit -m build
+ 1152  git push
+ 1153  git add .
+ 1154  git commit -m build
+ 1155  git push
+ 1156  git add .
+ 1157  git commit -m build
+ 1158  git push
+ 1159  git add .
+ 1160  git commit -m build
+ 1161  git push
+ 1162  git add .
+ 1163  git commit -m build
+ 1164  git push
+ 1165  git add .
+ 1166  git commit -m build
+ 1167  git push
+ 1168  git add .
+ 1169  git commit -m build
+ 1170  git push
+ 1171  git add .
+ 1172  git commit -m build
+ 1173  git push
+ 1174  git add .
+ 1175  git commit -m build
+ 1176  git push
+ 1177  pip --version
+ 1178  apt-get install python3-pip
+ 1179  sudo apt-get install python3-pip
+ 1180  pip3 --version
+ 1181  git add .
+ 1182  git commit -m build
+ 1183  git push
+ 1184  git add .
+ 1185  git commit -m build
+ 1186  git push
+ 1187  git add .
+ 1188  git commit -m build
+ 1189  git push
+ 1190  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1191  make clean
+ 1192  cd docs
+ 1193  make clean
+ 1194  make html
+ 1195  pip install sphinx_rtd_theme
+ 1196  make clean
+ 1197  make html
+ 1198  make clean
+ 1199  make html
+ 1200  git add .
+ 1201  git commit -m build
+ 1202  git push
+ 1203  git add .
+ 1204  git commit -m build
+ 1205  git push
+ 1206  git add .
+ 1207  git commit -m build
+ 1208  git push
+ 1209  git add .
+ 1210  git commit -m build
+ 1211  git push
+ 1212  git add .
+ 1213  git commit -m build
+ 1214  git push
+ 1215  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1216  cd docs
+ 1217  make clean
+ 1218  make html
+ 1219  build clean
+ 1220  make clean
+ 1221  make html
+ 1222  make clean
+ 1223  make html
+ 1224  git add .
+ 1225  git commit -m build
+ 1226  git push
+ 1227  git add .
+ 1228  git commit -m build
+ 1229  git push
+ 1230  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1231  cd docs
+ 1232  make html
+ 1233  python --version
+ 1234  git add .
+ 1235  git commit -m build
+ 1236  git push
+ 1237  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1238  cd docs
+ 1239  make clean
+ 1240  make html
+ 1241  make clean
+ 1242  make html
+ 1243  clear
+ 1244  make html
+ 1245  make clean
+ 1246  make html
+ 1247  make clean
+ 1248  make html
+ 1249  git add .
+ 1250  git commit -m build
+ 1251  git push
+ 1252  git add .
+ 1253  git commit -m build
+ 1254  git push
+ 1255  git add .
+ 1256  git commit -m build
+ 1257  git push
+ 1258  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1259  make html
+ 1260  cd docs
+ 1261  make clean
+ 1262  make html
+ 1263  git add .
+ 1264  git commit -m build
+ 1265  git push
+ 1266  git add .
+ 1267  git commit -m build
+ 1268  git push
+ 1269  git add .
+ 1270  git commit -m build
+ 1271  git push
+ 1272  git add .
+ 1273  git commit -m build
+ 1274  git push
+ 1275  git add .
+ 1276  git commit -m build
+ 1277  git push
+ 1278  git add .
+ 1279  git commit -m build
+ 1280  git push
+ 1281  git add .
+ 1282  git commit -m build
+ 1283  git push
+ 1284  git add .
+ 1285  git commit -m build
+ 1286  git push
+ 1287  git add .
+ 1288  git commit -m build
+ 1289  git push
+ 1290  git add .
+ 1291  git commit -m build
+ 1292  git push
+ 1293  git add .
+ 1294  git commit -m build
+ 1295  git push
+ 1296  git add .
+ 1297  git commit -m build
+ 1298  git push
+ 1299  git add .
+ 1300  git commit -m build
+ 1301  git push
+ 1302  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1303  cd docs
+ 1304  make html
+ 1305  make clean
+ 1306  make html
+ 1307  make clean
+ 1308  make html
+ 1309  make clean
+ 1310  make html
+ 1311  make clean
+ 1312  make html
+ 1313  make clean
+ 1314  make html
+ 1315  make clean
+ 1316  make html
+ 1317  make clean
+ 1318  make html
+ 1319  make clean
+ 1320  make html
+ 1321  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1322  cd cd docs
+ 1323  cd docs
+ 1324  cd source
+ 1325  cd assets/
+ 1326  ls -lat
+ 1327  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1328  make html
+ 1329  cd docs
+ 1330  make html
+ 1331  cd docssource /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1332  git add .
+ 1333  git commit -m build
+ 1334  git push
+ 1335  git add .
+ 1336  git commit -m build
+ 1337  git push
+ 1338  git add .
+ 1339  git commit -m build
+ 1340  git push
+ 1341  git add .
+ 1342  git commit -m build
+ 1343  git push
+ 1344  git add .
+ 1345  git commit -m build
+ 1346  git push
+ 1347  mv Big\ Picture\ Charts\ and\ Graphs.rst docs
+ 1348  mv docs/Big\ Picture\ Charts\ and\ Graphs.rst source
+ 1349  cd docs
+ 1350  cd source
+ 1351  ll
+ 1352  cd ..
+ 1353  git add .
+ 1354  git commit -m build
+ 1355  git push
+ 1356  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1357  make html
+ 1358  cd docs
+ 1359  make html
+ 1360  ll
+ 1361  cd source/
+ 1362  ll
+ 1363  cd ..
+ 1364  make clean
+ 1365  make html
+ 1366  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1367  cd docs
+ 1368  cd source
+ 1369  ll
+ 1370  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1371  cd docs
+ 1372  cd source/assets/
+ 1373  ll
+ 1374  ls
+ 1375  ll
+ 1376  cd ../..
+ 1377  make html
+ 1378  source /home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/activate
+ 1379  cd docs
+ 1380  make html
+ 1381  git add .
+ 1382  git commit -m build
+ 1383  git push
+ 1384  git add .
+ 1385  git commit -m build
+ 1386  git push
+ 1387  git add .
+ 1388  git commit -m build
+ 1389  git push
+ 1390  git add .
+ 1391  git commit -m build
+ 1392  git push
+ 1393  git add .
+ 1394  git commit -m build
+ 1395  git push
+ 1396  git add .
+ 1397  git commit -m build
+ 1398  git push
+ 1399  git add .
+ 1400  git commit -m build
+ 1401  git push
+ 1402  git add .
+ 1403  git commit -m build
+ 1404  git push
+ 1405  git add .
+ 1406  git commit -m build
+ 1407  git push
+ 1408  cd aprojects/
+ 1409  mkdir try-twitter-sphinx
+ 1410  cd try-twitter-sphinx/
+ 1411  git add .
+ 1412  python --version
+ 1413  workon ScribeEnv
+ 1414  sphinx-quickstart
+ 1415  history > junk.txt
